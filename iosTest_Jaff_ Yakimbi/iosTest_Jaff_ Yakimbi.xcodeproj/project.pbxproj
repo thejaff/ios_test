@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6E17ECD16DDEAE900C4878A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E17ECC16DDEAE900C4878A /* UIKit.framework */; };
+		B6E17ECF16DDEAE900C4878A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E17ECE16DDEAE900C4878A /* Foundation.framework */; };
+		B6E17ED116DDEAE900C4878A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E17ED016DDEAE900C4878A /* CoreGraphics.framework */; };
+		B6E17ED316DDEAE900C4878A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E17ED216DDEAE900C4878A /* CoreData.framework */; };
+		B6E17ED916DDEAE900C4878A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6E17ED716DDEAE900C4878A /* InfoPlist.strings */; };
+		B6E17EDB16DDEAE900C4878A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17EDA16DDEAE900C4878A /* main.m */; };
+		B6E17EDF16DDEAE900C4878A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17EDE16DDEAE900C4878A /* AppDelegate.m */; };
+		B6E17EE116DDEAE900C4878A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E17EE016DDEAE900C4878A /* Default.png */; };
+		B6E17EE316DDEAE900C4878A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E17EE216DDEAE900C4878A /* Default@2x.png */; };
+		B6E17EE516DDEAE900C4878A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E17EE416DDEAE900C4878A /* Default-568h@2x.png */; };
+		B6E17EE816DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6E17EE616DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld */; };
+		B6E17EF016DDF76B00C4878A /* EntityRevData.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17EEF16DDF76B00C4878A /* EntityRevData.m */; };
+		B6E17F2916DE722C00C4878A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17F2716DE722C00C4878A /* MainViewController.m */; };
+		B6E17F2A16DE722C00C4878A /* MainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E17F2816DE722C00C4878A /* MainViewController_iPhone.xib */; };
+		B6E17F2C16DE726C00C4878A /* MainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E17F2B16DE726C00C4878A /* MainViewController_iPad.xib */; };
+		B6E17F3016DEF21500C4878A /* tblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17F2E16DEF21500C4878A /* tblViewController.m */; };
+		B6E17F3116DEF21500C4878A /* tblViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E17F2F16DEF21500C4878A /* tblViewController.xib */; };
+		B6E17F3916DF751900C4878A /* PopOverChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E17F3716DF751800C4878A /* PopOverChoiceViewController.m */; };
+		B6E17F3A16DF751900C4878A /* PopOverChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E17F3816DF751900C4878A /* PopOverChoiceViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6E17EC816DDEAE900C4878A /* iosTest_Jaff_ Yakimbi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosTest_Jaff_ Yakimbi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E17ECC16DDEAE900C4878A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6E17ECE16DDEAE900C4878A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6E17ED016DDEAE900C4878A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6E17ED216DDEAE900C4878A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B6E17ED616DDEAE900C4878A /* iosTest_Jaff_ Yakimbi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iosTest_Jaff_ Yakimbi-Info.plist"; sourceTree = "<group>"; };
+		B6E17ED816DDEAE900C4878A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6E17EDA16DDEAE900C4878A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6E17EDC16DDEAE900C4878A /* iosTest_Jaff_ Yakimbi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iosTest_Jaff_ Yakimbi-Prefix.pch"; sourceTree = "<group>"; };
+		B6E17EDD16DDEAE900C4878A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6E17EDE16DDEAE900C4878A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6E17EE016DDEAE900C4878A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B6E17EE216DDEAE900C4878A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B6E17EE416DDEAE900C4878A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6E17EE716DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iosTest_Jaff__Yakimbi.xcdatamodel; sourceTree = "<group>"; };
+		B6E17EEE16DDF76B00C4878A /* EntityRevData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityRevData.h; sourceTree = "<group>"; };
+		B6E17EEF16DDF76B00C4878A /* EntityRevData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityRevData.m; sourceTree = "<group>"; };
+		B6E17F2616DE722C00C4878A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B6E17F2716DE722C00C4878A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B6E17F2816DE722C00C4878A /* MainViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iPhone.xib; sourceTree = "<group>"; };
+		B6E17F2B16DE726C00C4878A /* MainViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iPad.xib; sourceTree = "<group>"; };
+		B6E17F2D16DEF21500C4878A /* tblViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tblViewController.h; sourceTree = "<group>"; };
+		B6E17F2E16DEF21500C4878A /* tblViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tblViewController.m; sourceTree = "<group>"; };
+		B6E17F2F16DEF21500C4878A /* tblViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tblViewController.xib; sourceTree = "<group>"; };
+		B6E17F3616DF751800C4878A /* PopOverChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOverChoiceViewController.h; sourceTree = "<group>"; };
+		B6E17F3716DF751800C4878A /* PopOverChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOverChoiceViewController.m; sourceTree = "<group>"; };
+		B6E17F3816DF751900C4878A /* PopOverChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopOverChoiceViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E17EC516DDEAE900C4878A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E17ECD16DDEAE900C4878A /* UIKit.framework in Frameworks */,
+				B6E17ECF16DDEAE900C4878A /* Foundation.framework in Frameworks */,
+				B6E17ED116DDEAE900C4878A /* CoreGraphics.framework in Frameworks */,
+				B6E17ED316DDEAE900C4878A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6E17EBD16DDEAE800C4878A = {
+			isa = PBXGroup;
+			children = (
+				B6E17ED416DDEAE900C4878A /* iosTest_Jaff_ Yakimbi */,
+				B6E17ECB16DDEAE900C4878A /* Frameworks */,
+				B6E17EC916DDEAE900C4878A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E17EC916DDEAE900C4878A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E17EC816DDEAE900C4878A /* iosTest_Jaff_ Yakimbi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E17ECB16DDEAE900C4878A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6E17ECC16DDEAE900C4878A /* UIKit.framework */,
+				B6E17ECE16DDEAE900C4878A /* Foundation.framework */,
+				B6E17ED016DDEAE900C4878A /* CoreGraphics.framework */,
+				B6E17ED216DDEAE900C4878A /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6E17ED416DDEAE900C4878A /* iosTest_Jaff_ Yakimbi */ = {
+			isa = PBXGroup;
+			children = (
+				B6E17EDD16DDEAE900C4878A /* AppDelegate.h */,
+				B6E17EDE16DDEAE900C4878A /* AppDelegate.m */,
+				B6E17F2D16DEF21500C4878A /* tblViewController.h */,
+				B6E17F2E16DEF21500C4878A /* tblViewController.m */,
+				B6E17F2F16DEF21500C4878A /* tblViewController.xib */,
+				B6E17F3616DF751800C4878A /* PopOverChoiceViewController.h */,
+				B6E17F3716DF751800C4878A /* PopOverChoiceViewController.m */,
+				B6E17F3816DF751900C4878A /* PopOverChoiceViewController.xib */,
+				B6E17F2616DE722C00C4878A /* MainViewController.h */,
+				B6E17F2716DE722C00C4878A /* MainViewController.m */,
+				B6E17F2816DE722C00C4878A /* MainViewController_iPhone.xib */,
+				B6E17F2B16DE726C00C4878A /* MainViewController_iPad.xib */,
+				B6E17EE616DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld */,
+				B6E17EEE16DDF76B00C4878A /* EntityRevData.h */,
+				B6E17EEF16DDF76B00C4878A /* EntityRevData.m */,
+				B6E17ED516DDEAE900C4878A /* Supporting Files */,
+			);
+			path = "iosTest_Jaff_ Yakimbi";
+			sourceTree = "<group>";
+		};
+		B6E17ED516DDEAE900C4878A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6E17ED616DDEAE900C4878A /* iosTest_Jaff_ Yakimbi-Info.plist */,
+				B6E17ED716DDEAE900C4878A /* InfoPlist.strings */,
+				B6E17EDA16DDEAE900C4878A /* main.m */,
+				B6E17EDC16DDEAE900C4878A /* iosTest_Jaff_ Yakimbi-Prefix.pch */,
+				B6E17EE016DDEAE900C4878A /* Default.png */,
+				B6E17EE216DDEAE900C4878A /* Default@2x.png */,
+				B6E17EE416DDEAE900C4878A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E17EC716DDEAE900C4878A /* iosTest_Jaff_ Yakimbi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E17EEB16DDEAE900C4878A /* Build configuration list for PBXNativeTarget "iosTest_Jaff_ Yakimbi" */;
+			buildPhases = (
+				B6E17EC416DDEAE900C4878A /* Sources */,
+				B6E17EC516DDEAE900C4878A /* Frameworks */,
+				B6E17EC616DDEAE900C4878A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iosTest_Jaff_ Yakimbi";
+			productName = "iosTest_Jaff_ Yakimbi";
+			productReference = B6E17EC816DDEAE900C4878A /* iosTest_Jaff_ Yakimbi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E17EBF16DDEAE800C4878A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jaff Low";
+			};
+			buildConfigurationList = B6E17EC216DDEAE800C4878A /* Build configuration list for PBXProject "iosTest_Jaff_ Yakimbi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6E17EBD16DDEAE800C4878A;
+			productRefGroup = B6E17EC916DDEAE900C4878A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E17EC716DDEAE900C4878A /* iosTest_Jaff_ Yakimbi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E17EC616DDEAE900C4878A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E17ED916DDEAE900C4878A /* InfoPlist.strings in Resources */,
+				B6E17EE116DDEAE900C4878A /* Default.png in Resources */,
+				B6E17EE316DDEAE900C4878A /* Default@2x.png in Resources */,
+				B6E17EE516DDEAE900C4878A /* Default-568h@2x.png in Resources */,
+				B6E17F2A16DE722C00C4878A /* MainViewController_iPhone.xib in Resources */,
+				B6E17F2C16DE726C00C4878A /* MainViewController_iPad.xib in Resources */,
+				B6E17F3116DEF21500C4878A /* tblViewController.xib in Resources */,
+				B6E17F3A16DF751900C4878A /* PopOverChoiceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E17EC416DDEAE900C4878A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E17EDB16DDEAE900C4878A /* main.m in Sources */,
+				B6E17EDF16DDEAE900C4878A /* AppDelegate.m in Sources */,
+				B6E17EE816DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld in Sources */,
+				B6E17EF016DDF76B00C4878A /* EntityRevData.m in Sources */,
+				B6E17F2916DE722C00C4878A /* MainViewController.m in Sources */,
+				B6E17F3016DEF21500C4878A /* tblViewController.m in Sources */,
+				B6E17F3916DF751900C4878A /* PopOverChoiceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6E17ED716DDEAE900C4878A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E17ED816DDEAE900C4878A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6E17EE916DDEAE900C4878A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E17EEA16DDEAE900C4878A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E17EEC16DDEAE900C4878A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iosTest_Jaff_ Yakimbi/iosTest_Jaff_ Yakimbi-Prefix.pch";
+				INFOPLIST_FILE = "iosTest_Jaff_ Yakimbi/iosTest_Jaff_ Yakimbi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6E17EED16DDEAE900C4878A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iosTest_Jaff_ Yakimbi/iosTest_Jaff_ Yakimbi-Prefix.pch";
+				INFOPLIST_FILE = "iosTest_Jaff_ Yakimbi/iosTest_Jaff_ Yakimbi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E17EC216DDEAE800C4878A /* Build configuration list for PBXProject "iosTest_Jaff_ Yakimbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E17EE916DDEAE900C4878A /* Debug */,
+				B6E17EEA16DDEAE900C4878A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E17EEB16DDEAE900C4878A /* Build configuration list for PBXNativeTarget "iosTest_Jaff_ Yakimbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E17EEC16DDEAE900C4878A /* Debug */,
+				B6E17EED16DDEAE900C4878A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6E17EE616DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6E17EE716DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodel */,
+			);
+			currentVersion = B6E17EE716DDEAE900C4878A /* iosTest_Jaff__Yakimbi.xcdatamodel */;
+			path = iosTest_Jaff__Yakimbi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6E17EBF16DDEAE800C4878A /* Project object */;
+}

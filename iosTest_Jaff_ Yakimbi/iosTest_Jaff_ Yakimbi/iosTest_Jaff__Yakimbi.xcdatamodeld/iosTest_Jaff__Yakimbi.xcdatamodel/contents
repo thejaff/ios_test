@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C3012" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EntityRevData" representedClassName="EntityRevData" syncable="YES">
+        <attribute name="created_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_shared" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="item_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_updated_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_updated_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mime_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parent_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path_by_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="share_level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shared_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EntityRevData" positionX="160" positionY="192" width="128" height="330"/>
+    </elements>
+</model>
